@@ -1,0 +1,262 @@
+body {
+  position: relative;
+  text-align: center;
+  background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/congruent_pentagon.png");
+}
+
+.skills {
+  text-align:left;
+  color: #333333;
+  font-size: 16px;
+}
+
+.home h2 {
+  margin: 10px;
+}
+
+.img-circle {
+  margin-top: 50px;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+.col-md-4,
+.col-sm-6 {
+  margin-bottom: 15px;
+}
+
+.thumbnail {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+}
+
+.thumbnail a:hover {
+  text-decoration: none;
+}
+
+.port-item .port-hover {
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+strike {
+  color: red;
+}
+
+.port-hover p {
+  margin-top: 70px;
+  color: white;
+}
+
+.port-item .port-link {
+  position: relative;
+  display: block;
+}
+
+.port-item,
+.port-hover {
+  transition: opacity 0.5s linear
+}
+
+.port-hover:hover {
+  opacity: 2;
+}
+
+p {
+  line-height: 1;
+  font-family: 'Fira Mono';
+}
+
+
+footer {
+  background-color: #2a2730;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  color: #E7D2D4;
+}
+
+
+/**.social-icons a img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.social-icons a img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}**/
+
+.navbar-default {
+  background-color: #DADFE1;
+}
+
+#firstwell {
+  max-width: 960px;
+  margin-top: 51px;
+  position: fixed;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0px;
+  top: 30%;
+}
+
+.social-icons ul {
+  list-style-type: none;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.social-icons {
+  float: right;
+  margin-right: 64px;
+}
+
+hr {
+  border-radius: 90px;
+  border-top: 2px solid #DADFE1;
+  border-bottom: 1px solid;
+}
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module.parallax-3 h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  padding: 40px 0;
+  background-color: #BDC3C7;
+}
+
+section.module.parallax {
+  padding-bottom: 70px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 48px;
+  margin-top: 90px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-1 {
+  background-image: url("https://cdn.designmaz.net/wp-content/uploads/2014/10/ceystalhorizon.png");
+}
+
+section.module.parallax-2 {
+  background-image: url("https://cdn.designmaz.net/wp-content/uploads/2014/10/flat-design-wallpapers-HD-03.jpg");
+}
+
+
+section.module.parallax-3 h1 {
+  font-size: 96px;
+  margin-top: 25px;
+}
+
+section.module.parallax-3 h2 {
+  margin: 0 0 15px 0;
+}
+
+section.module.parallax h2 {
+  font-family: 'Fira Mono';
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 16px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 130px;
+  }
+  section.module.parallax-2 h1 {
+    font-size: 96px;
+  }
+  section.module.parallax-3 h1 {
+    font-size: 96px;
+  }
+}
+
+@media all and (max-width: 767px) {
+    .img-circle {
+    width: 96px;
+    height: 96px;
+    margin-top: 0px;
+  }
+  .parallax-2 h1 {
+    font-size: 72px;
+  }
+}
+
+@media all and (max-width: 667px) {
+  .social-icons img {
+    height: 36px;
+    width: 36px;
+  }
+  section.module.parallax-3 h1 {
+    font-size: 48px;
+  }
+  .social-icons {
+    margin-right: 36px;
+  }
+  #firstwell {
+    top: 20%;
+  }
+}
